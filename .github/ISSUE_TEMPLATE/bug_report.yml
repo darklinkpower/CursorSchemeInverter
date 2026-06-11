@@ -1,0 +1,42 @@
+name: Bug report
+title: "Bug: Brief description"
+description: Report a bug to help us improve
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Check for existing issues first**
+        Before reporting a bug, please use the issue search to check if the problem has already been reported. This helps avoid duplicates and speeds up resolution.
+
+        **Instructions**
+        Change the placeholder title automatically filled in the template and provide the necessary details in the sections below. Fields marked with a * are required.
+  - type: checkboxes
+    attributes:
+      label: Pre-Request Checklist
+      description: Before submitting your bug report, please confirm the following
+      options:
+        - label: "I have checked and confirmed **this is not** a duplicate issue"
+          required: true
+        - label: "I have verified that I'm using the latest version of the utility"
+          required: true
+        - label: "I have modified the placeholder issue title according to this issue"
+          required: true
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of the bug and what behavior you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: If the issue isn't obvious from the description, please list the steps to reproduce the behavior (e.g., specific cursor file configurations used, CLI commands executed, or drag-and-drop scenarios).
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: Add screenshots or videos to help illustrate the issue, if applicable. These are particularly useful for visual bugs or conversion errors.
+    validations:
+      required: false
