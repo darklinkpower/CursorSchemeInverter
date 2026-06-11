@@ -9,6 +9,8 @@ A command-line and drag-and-drop utility that converts Windows cursor schemes by
 
 It allows changing dark cursor themes into light variants, or light variants into dark ones, without manual image editing.
 
+**[Download here](https://github.com/darklinkpower/CursorSchemeInverter/releases/latest)**
+
 ---
 
 ## Features
