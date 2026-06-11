@@ -1,0 +1,40 @@
+# Ignore thumbnails created by Windows
+Thumbs.db
+
+# Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+**/bin/[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+obj/**
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+
+# Ignore files built by JetBrains Rider
+.idea/
+
+# NuGet packages folder
+packages/
+
+# Ignore everything else in release folders
+**/bin/[Rr]elease*/
+/.stfolder/
